@@ -1,3 +1,59 @@
 .App {
   text-align: center;
 }
+
+img {
+  width: 100px;
+  /* background-color: black; */
+}
+
+h1 {
+  color: aliceblue;
+}
+
+p {
+  text-align: center;
+  color: aliceblue;
+}
+
+header {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: aliceblue;
+}
+
+.divPlanets {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-color: black;
+  width: 100%;
+}
+
+.missions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.itemMission {
+  margin: 1%;
+  border: white solid 2px;
+  padding-left: 3%;
+  padding-right: 3%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border-radius: 8%;
+}
+
+.missionName {
+  font-size: x-large;
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
